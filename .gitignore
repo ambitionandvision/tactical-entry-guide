@@ -1,0 +1,56 @@
+# 로컬 작업 폴더 (저장소에 넣지 않는다)
+Agent_Teams/
+Agent_Teams*.zip
+.claude/
+.team/
+
+# 빌드 산출물
+build/
+.gradle/
+*.class
+*.log
+captures/
+.externalNativeBuild/
+.cxx/
+unity_tactical_module/Library/
+unity_tactical_module/Temp/
+unity_tactical_module/Obj/
+unity_tactical_module/Logs/
+unity_tactical_module/UserSettings/
+unity_tactical_module/*.csproj
+unity_tactical_module/*.sln
+
+# 로컬 설정 / 외부 SDK 바이너리
+local.properties
+*.aar
+.idea/
+*.iml
+
+# 대용량 영상 (필요 시 외부 링크 사용)
+docs/demo/*.mp4
+docs/demo/*.mov
+*.mkv
+
+# APK 는 제출 규격 파일만 추적
+apk/*
+!apk/README.md
+!apk/*_TacticalEntryGuide_release.apk
+
+# 시뮬레이션 GPX 백업 (extract 로 재생성 가능)
+gis_data/backup_simulated/
+
+# 인수인계 묶음과 SHP 원본은 저장소에 넣지 않는다
+handoff/
+source_shp/
+
+# 실주행 원본 로그 (출발지 포함). 저장소에는 import_real_gpx.py 로 잘라낸 구간만 넣는다
+/*.gpx
+
+# 파이썬 캐시 (로컬 경로가 들어간다)
+__pycache__/
+*.pyc
+
+# 참고용 화면 이미지 (제3자 화면)
+/*.jpeg
+/*.jpg
+/*.png

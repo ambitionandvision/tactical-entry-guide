@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="touch_target_min">76dp</dimen>
+    <dimen name="panel_padding">20dp</dimen>
+    <dimen name="panel_margin">12dp</dimen>
+    <dimen name="panel_radius">16dp</dimen>
+    <dimen name="text_label">24sp</dimen>
+    <dimen name="text_body">40sp</dimen>
+    <dimen name="text_title">52sp</dimen>
+    <dimen name="text_hero">80sp</dimen>
+    <dimen name="text_xl">64sp</dimen>
+    <dimen name="text_demo">22sp</dimen>
+    <dimen name="side_panel_width">600dp</dimen>
+    <dimen name="summary_card_max_width">1000dp</dimen>
+    <dimen name="summary_card_margin">24dp</dimen>
+</resources>

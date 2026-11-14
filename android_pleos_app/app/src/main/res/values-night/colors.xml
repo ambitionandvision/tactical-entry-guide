@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 야간 테마. 4차까지 쓰던 어두운 색을 그대로 옮겼다. -->
+<resources>
+    <color name="bg_window">#FF0B0F14</color>
+    <color name="panel_surface">#F0151B23</color>
+    <color name="panel_stroke">#FF2E3A47</color>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FFB8C4D0</color>
+    <color name="accent">#FF00E5FF</color>
+    <color name="lane_value">#FF00E5FF</color>
+    <color name="entry_dist_value">#FFFFFFFF</color>
+    <color name="warning_bg">#FF5A0F0B</color>
+    <color name="warning_stroke">#FFFF3B30</color>
+    <color name="warning_text">#FFFFFFFF</color>
+    <color name="badge_amber">#FFFFC400</color>
+    <color name="badge_text">#FF000000</color>
+    <color name="button_bg">#FF22303D</color>
+    <color name="button_bg_pressed">#FF2E3F50</color>
+    <color name="button_stroke">#FF2E3A47</color>
+    <color name="button_text_normal">#FFFFFFFF</color>
+    <color name="button_bg_selected">#FF006C7A</color>
+    <color name="button_bg_selected_pressed">#FF00535E</color>
+    <color name="button_stroke_selected">#FF00E5FF</color>
+    <color name="button_text_selected">#FFFFFFFF</color>
+    <color name="slider_track">#FF5B6878</color>
+    <color name="arrived_green">#FF2EE6A0</color>
+    <color name="overlay_scrim">#990B0F14</color>
+</resources>

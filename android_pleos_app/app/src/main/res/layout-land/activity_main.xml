@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- landscape (앱 영역 실측 약 1682×1210dp). 왼쪽 = Phase 1 요약 카드(가운데) / Phase 2 3D, 오른쪽 = HUD·데모 제어. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_window">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <!-- Phase 1 에서는 INVISIBLE (MainActivity 가 제어). 시작 직후부터 숨김. -->
+            <FrameLayout
+                android:id="@+id/tacticalSurfaceContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible" />
+
+            <ScrollView
+                android:id="@+id/summaryScroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <io.github.ambitionandvision.tactical.ui.SummaryCardView
+                        android:id="@+id/summaryCard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/summary_card_margin" />
+                </FrameLayout>
+            </ScrollView>
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="@dimen/side_panel_width"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <io.github.ambitionandvision.tactical.ui.TacticalHudView
+                    android:id="@+id/tacticalHud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/panel_margin"
+                    android:visibility="gone" />
+
+                <io.github.ambitionandvision.tactical.ui.DemoControlBarView
+                    android:id="@+id/demoControlBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/panel_margin" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <io.github.ambitionandvision.tactical.ui.ArrivedOverlayView
+        android:id="@+id/arrivedOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</FrameLayout>

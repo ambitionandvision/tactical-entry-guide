@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tactical Entry Guide</string>
+    <string name="summary_title">목적지</string>
+    <string name="summary_entry_label">추천 입구</string>
+    <string name="summary_fuel_label">연료 타입</string>
+    <string name="summary_lane_label">추천 차선</string>
+    <string name="summary_notice_label">현장 주의</string>
+    <string name="summary_height_badge">높이 제한 %1$s m</string>
+    <string name="summary_notice_unverified">현장 확인 전 저작 데이터</string>
+    <string name="fuel_ev">전기차(EV)</string>
+    <string name="fuel_phev">플러그인 하이브리드(PHEV)</string>
+    <string name="fuel_ice">내연기관(ICE)</string>
+    <string name="fuel_unknown">미확인</string>
+    <string name="hud_lane">추천 차선</string>
+    <string name="hud_entry_dist">입구까지</string>
+    <string name="hud_off_route">차선 이탈!\n유도선으로 복귀하세요</string>
+    <string name="distance_m">%1$d m</string>
+    <string name="arrived_message">주차장 램프 진입 완료. 안전 운전하세요.</string>
+    <string name="arrived_message_ev">충전소 인접 입구 도착. 안전 운전하세요.</string>
+    <string name="summary_navi_linked">내비 목적지 연동</string>
+    <string name="summary_navi_remain">내비 목적지 연동 · 남은 거리 %1$s km</string>
+    <string name="source_fused_label">위치: Pleos FusedLocation 실측위</string>
+    <string name="demo_play">재생</string>
+    <string name="demo_pause">일시정지</string>
+    <string name="demo_2x_off">2배속</string>
+    <string name="demo_2x_on">2배속 켬</string>
+    <string name="demo_ev">EV</string>
+    <string name="demo_ice">ICE</string>
+    <string name="demo_lane_test">차선 이탈 경고 테스트 (5초)</string>
+    <string name="demo_distance">거리 %1$d m</string>
+    <string name="demo_gpx_none">위치 소스 대기 중</string>
+    <string name="cd_distance_slider">입구까지 거리 슬라이더, 500에서 0미터</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- 진입 화살표(위쪽) + 원형 레이더 링 -->
+    <path android:strokeColor="@color/icon_ring" android:strokeWidth="3"
+        android:pathData="M54,54m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0" />
+    <path android:fillColor="@color/icon_arrow"
+        android:pathData="M54,32L72,66L54,58L36,66Z" />
+</vector>
